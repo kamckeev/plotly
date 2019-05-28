@@ -34,20 +34,33 @@ function buildChart(sample) {
       Plotly.newPlot('bubble',bubbleData)
 
 
-// /// Guage Chart ///
-//       var level = data.WFREQ*20
-//       var degrees = 180 - level,
-//       radius = .5;
-//       var radians = degrees * Math.PI / 180;
-//       var x = radius * Math.cos(radians);
-//       var y = radius * Math.sin(radians);
+/// Guage Chart ///
+      var level = data.WFREQ*20
+      var degrees = 180 - level,
+      radius = .5;
+      var radians = degrees * Math.PI / 180;
+      var x = radius * Math.cos(radians);
+      var y = radius * Math.sin(radians);
 
-//       var mainPath = 'M -.0 -0.025 L .0 0.025 L ',
-//         pathX = String(x),
-//         space = ' ',
-//         pathY = String(y),
-//         pathEnd = ' Z';
-//       var path = mainPath.concat(pathX,space,pathY,pathEnd);
+      var mainPath = 'M -.0 -0.025 L .0 0.025 L ',
+        pathX = String(x),
+        space = ' ',
+        pathY = String(y),
+        pathEnd = ' Z';
+      var path = mainPath.concat(pathX,space,pathY,pathEnd);
+
+      var data =[{
+        type: 'scatter',
+        x: [0], y:[0],
+        marker: {size: 28, color: 'blue'},
+        showlegend: false,
+        name: 'frequency',
+        text: level,
+        hoverinfo: 'text+name'},
+        {
+          /// !!! ///
+        }
+      }]
 
 
 /// Pie Chart ///      
