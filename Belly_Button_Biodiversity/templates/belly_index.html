@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Flask Plotly js</title>
+  <title>Flask Plotly JavaScript</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="../static/css/belly_style.css">
 </head>
 
-<body class= "black">
+<body style="background-color:black;">
 
-  <div class="container">
+  <div class="container" style="background-color:black important!;">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1 id="glow">Belly Button Biodiversity</h1>
@@ -48,7 +48,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="{{ url_for('static', filename='../static/js/belly_bonus.js') }}"></script>
   <script src="{{ url_for('static', filename='../static/js/belly_app.js') }}"></script>
 
 </body>

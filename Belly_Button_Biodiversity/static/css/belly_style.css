@@ -20,6 +20,6 @@
     font:italic bold 20px/50px Georgia, serif};
 
 
-.black{
-  background-color: black !important
-};
+body {
+  background-color: rgb(27, 150, 190);
+}
