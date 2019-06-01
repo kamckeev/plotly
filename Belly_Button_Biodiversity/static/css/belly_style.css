@@ -1,25 +1,30 @@
 #glow {
-    font-size: 80px;
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
+  font-size: 80px;
+  color: rgb(145, 218, 252);
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
-  p.ital {
-    font:italic bold 20px/50px Georgia, serif};
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(145, 218, 252), 0 0 20px rgb(145, 218, 252), 0 0 30px #00ddff, 0 0 40px #00ddff, 0 0 45px #00ddff, 0 0 50px #02b7f9, 0 0 60px #02b7f9, 0 0 70px #02b7f9, 0 0 70px #02b7f9, 0 0 65px #029ef9, 0 0 55px #029ef9;
+  }
+  to {
+    text-shadow: 0 0 20px rgb(145, 218, 252), 0 0 30px #00fff6, 0 0 40px #00fff6, 0 0 50px #00fff6, 0 0 60px #00fff6, 0 0 65px #00fff6, 0 0 70px #00fff6,0 0 75px #00ddff, 0 0 80px #00ddff, 0 0 75px #01b7f9, 0 0 65px #01b7f9;
+  }
+}
+
+p.ital {
+  font:italic bold 20px/50px Georgia, serif;
+  color: white;
+}
 
 
 body {
-  background-color: rgb(27, 150, 190);
+background-color: rgb(27, 150, 190);
+}
+.jumbotron{
+background-color: black;
 }
